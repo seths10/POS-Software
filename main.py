@@ -255,7 +255,7 @@ class Application:
 
     def generate_bill(self, *args, **kwargs):
         # Bill
-        directory = "C:/Users/aseth/OneDrive/Desktop/POS Software/Invoice/" + \
+        directory = "C:/Users/seth-bithermann/OneDrive/Desktop/POS Software/Invoice/" + \
             str(date)
         if not os.path.exists(directory):
             os.mkdir(directory)
